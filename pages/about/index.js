@@ -15,6 +15,7 @@ import {
   SiFramer,
   SiAdobexd,
   SiAdobephotoshop,
+  SiPython,
 } from "react-icons/si";
 
 
@@ -24,7 +25,7 @@ const aboutData = [
     title: 'skills',
     info: [
       {
-        title: 'Web Development',
+        title: 'Software Development',
         icons: [
           <FaHtml5 key="html5" />,
           <FaCss3 key="css3" />,
@@ -33,11 +34,18 @@ const aboutData = [
           <SiNextdotjs key="nextjs" />,
           <SiFramer key="framer" />,
           <FaWordpress key="wordpress" />,
+          <SiAdobexd key="adobexd" />,
+          
+   
         ],
       },
       {
         title: 'UI/UX Design',
-        icons: [<FaFigma key="figma" />, <SiAdobexd key="xd" />, <SiAdobephotoshop key="photoshop" />],
+        icons: [<FaFigma key="figma" />, <SiAdobexd key="xd" />, <SiAdobephotoshop key="photoshop" />,],
+      },
+      {
+        title: 'Machine Learning',
+        icons: [<SiPython key="python" />,],
       },
     ],
   },
@@ -45,12 +53,12 @@ const aboutData = [
     title: 'awards',
     info: [
       {
-        title: 'Webby Awards - Honoree',
-        stage: '2011 - 2012',
+        title: 'German A1 - Pass',
+        stage: '2021',
       },
       {
-        title: 'Adobe Design Achievement Awards - Finalist',
-        stage: '2009 - 2010',
+        title: 'Adobe Design Achievement Awards ',
+        stage: '2025',
       },
     ],
   },
@@ -58,16 +66,16 @@ const aboutData = [
     title: 'experience',
     info: [
       {
-        title: 'UX/UI Designer - XYZ Company',
-        stage: '2012 - 2023',
+        title: 'ICT Operations Attachee - world Vision',
+        stage: '2019 - 2019',
       },
       {
-        title: 'Web Developer - ABC Agency',
-        stage: '2010 - 2012',
+        title: 'Web Developer(self) - Fiver',
+        stage: '2020 - 2023',
       },
       {
-        title: 'Intern - DEF Corporation',
-        stage: '2008 - 2010',
+        title: 'Intern - Not Yet',
+        stage: '2023 - 2023',
       },
     ],
   },
@@ -75,16 +83,16 @@ const aboutData = [
     title: 'credentials',
     info: [
       {
-        title: 'Web Development - ABC University, LA, CA',
-        stage: '2011',
+        title: 'Information Technology Diploma - KCA University, Ruaraka, Nairobi',
+        stage: '2017-2019',
       },
       {
-        title: 'Computer Science Diploma - AV Technical Institute',
-        stage: '2009',
+        title: 'Software Development Bachelors - KCA University, Ruaraka, Nairobi',
+        stage: '2021-2024',
       },
       {
-        title: 'Certified Graphic Designer - ABC Institute, Los Angeles, CA',
-        stage: '2006',
+        title: 'KCSE - Cardinal Otunga High school, Kisii, CA',
+        stage: '2013-2016',
       },
     ],
   },
